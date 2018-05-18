@@ -1,0 +1,12 @@
+##全局安装vue
+npm install -g vue-cli
+##使用wepack模板创建项目
+vue init webpack sell
+##使用自定义模板
+vue init dahailang/webpack appf
+cnpm install vue --save-dev
+npm install 安装依赖
+npm install --production  生产模式安装依赖
+npm run dev
+
+https://ke.qq.com/course/178139#tuin=90de623d
