@@ -1,0 +1,3 @@
+# 提示web.xml is missing and <failOnMissingWebXml> is set to true
+  解决方法：
+  这时候需要右击项目——>Java EE Tools——>Generate Deployment Descriptor Stub.然后系统会在src/main/webapp/WEB_INF文件加下创建web.xml文件。错误解决！
