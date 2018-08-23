@@ -12,3 +12,7 @@ bin/mysqladmin --defaults-file=/home/iddbs/mysql56/my.cnf -uroot -proot shutdown
 bin/mysqladmin --socket=/home/iddbs/mysql56/data3306/mysql.sock -uroot -proot shutdown
 
 /bin/sh ./bin/mysqld_safe --defaults-file=/usr/etc/my.cnf --user=root &
+
+开机自动启动
+vi /etc/rc.local
+su - mysql -c '/bin/sh /mysql/bin/mysqld_safe  --defaults-file=/mysql/my.cnf --user=mysql &'
